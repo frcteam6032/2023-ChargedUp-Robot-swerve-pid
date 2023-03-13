@@ -75,19 +75,19 @@ public class Robot extends TimedRobot {
   /** This function is called once each time the robot enters Disabled mode. */
   @Override
   public void disabledInit() {
-    Led_Strips.set(0.77);
+    Led_Strips.set(0.93);
   }
 
   @Override
   public void disabledPeriodic() {
-    //Led_Strips.set(-0.25);
+    Led_Strips.set(0.93);
     
   }
 
   /** This autonomous runs the autonomous command selected by your {@link RobotContainer} class. */
   @Override
   public void autonomousInit() {
-   // Led_Strips.set(-0.25);
+    Led_Strips.set(0.93);
 
     m_autonomousCommand = m_robotContainer.getAutonomousCommand();
     
